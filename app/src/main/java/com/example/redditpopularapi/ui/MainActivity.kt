@@ -1,7 +1,8 @@
-package com.example.redditpopularapi
+package com.example.redditpopularapi.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.redditpopularapi.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,6 +1,7 @@
-package com.example.redditpopularapi.data.models
+package com.example.redditpopularapi.data.models.popularItemModels
 
 
+import com.example.redditpopularapi.data.models.childrenModels.Children
 import com.google.gson.annotations.SerializedName
 
 data class Data(
@@ -10,10 +11,5 @@ data class Data(
     val before: Any,
     @SerializedName("children")
     val children: List<Children>,
-    @SerializedName("dist")
-    val dist: Int,
-    @SerializedName("geo_filter")
-    val geoFilter: Any,
-    @SerializedName("modhash")
-    val modhash: String
-)
+
+    )

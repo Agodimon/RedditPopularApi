@@ -1,4 +1,4 @@
-package com.example.redditpopularapi.data.models
+package com.example.redditpopularapi.data.models.popularItemModels
 
 
 import com.google.gson.annotations.SerializedName

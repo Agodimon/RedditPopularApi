@@ -53,7 +53,7 @@ dependencies {
     kapt "androidx.room:room-compiler:$room_version"
 
     //Retrofit + OKHTTP
-    def okHttp_version = '4.8.0'
+    def okHttp_version = '4.9.1'
     def retrofit_version = '2.9.0'
     def retrofit_coroutines_version = '0.9.2'
     implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
@@ -90,4 +90,8 @@ dependencies {
     //Viewbinding by Kirill Rozov
     def viewBindingDelegate_version = "1.5.6"
     implementation "com.github.kirich1409:viewbindingpropertydelegate:$viewBindingDelegate_version"
+    //Navigation
+    def nav_version = "2.4.2"
+    implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
 }

@@ -6,6 +6,6 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.lookerpopularapi.ui.screens.main.MainFragment"
-        android:label="MainFragment" />
+        android:name="com.android.lookerpopularapi.ui.screens.main.MainFragment"
+        android:label="Popular post children" />
 </navigation>
